@@ -7,8 +7,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 import { FaEdit, FaPlus } from 'react-icons/fa';
-import { FaDeleteLeft } from 'react-icons/fa6';
-import { MdDelete } from 'react-icons/md';
+
 
 type ProductItem={
   id:string

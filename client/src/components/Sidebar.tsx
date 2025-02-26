@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import React from 'react'
 import { FaBox, FaChartPie, FaCog, FaMoneyBillWave, FaShoppingCart, FaUsers } from 'react-icons/fa';
-import { FaBoxArchive, FaBoxOpen } from "react-icons/fa6";
+import { FaBoxArchive } from "react-icons/fa6";
 import { MdMoney } from 'react-icons/md';
 
 const Sidebar = () => {

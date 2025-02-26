@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
 import { SubmitHandler, useForm } from 'react-hook-form';
-import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 import {  CategoryInputs, categorySchema } from '@/utils/schema';
 import { toast } from 'react-toastify';
@@ -23,7 +22,7 @@ const AddCategoriesPage = () => {
   
     const onSubmit: SubmitHandler<CategoryInputs> = async(data) => {
       try {
-        const createdCategory = await addCategory({ data });
+        await addCategory({ data });
         toast.success("Category added successfully!");
         router.push("/categories")
       } catch (error) {

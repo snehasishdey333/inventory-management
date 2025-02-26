@@ -1,12 +1,12 @@
 import Pagination from '@/components/Pagination'
 import Table from '@/components/Table'
 import TableSearch from '@/components/TableSearch'
-import { categoryColumns, categoryData } from '@/data/data'
+import { categoryColumns } from '@/data/data'
 import { fetchCategories } from '@/utils/api'
 import Link from 'next/link'
 import React from 'react'
 import { FaEdit, FaPlus } from 'react-icons/fa'
-import { MdDelete } from 'react-icons/md'
+
 
 type CategoryItem = {
   id: number;

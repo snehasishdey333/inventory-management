@@ -1,5 +1,5 @@
 "use client"
-import { addImageToS3, deleteProduct, fetchCategories, fetchCategoriesWithoutParamas, updateProductWithImage, updateProductWithoutImage } from '@/utils/api';
+import { addImageToS3, deleteProduct, fetchCategoriesWithoutParamas, updateProductWithImage, updateProductWithoutImage } from '@/utils/api';
 import { ProductInputs, productSchema } from '@/utils/schema';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useRouter } from 'next/navigation';
@@ -8,7 +8,7 @@ import { SubmitHandler, useForm } from 'react-hook-form';
 import { MdDelete } from 'react-icons/md';
 import { toast } from 'react-toastify';
 
-const categoryList = ["Electronics", "Home Decor", "Utensils", "Kitchen"];
+// const categoryList = ["Electronics", "Home Decor", "Utensils", "Kitchen"];
 
 const ProductUpdateForm = ({data}:{data:{id:string,name:string,description:string,rating:string,sales:string,price:string,units:string,category:string,image:string}}) => {
     // const [categorySearch, setCategorySearch] = useState<string>("");

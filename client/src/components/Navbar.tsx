@@ -17,7 +17,7 @@ const Navbar = () => {
         try{
             
             let session = await fetchAuthSession()
-            const {idToken}=session.tokens ?? {}
+            // const {idToken}=session.tokens ?? {}
             const user=await getCurrentUser()
             // console.log(user)
             // console.log(session)

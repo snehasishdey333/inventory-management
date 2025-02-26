@@ -6,7 +6,7 @@ import { fetchIncomes } from '@/utils/api';
 import Link from 'next/link';
 import React from 'react'
 import { FaEdit, FaPlus } from 'react-icons/fa';
-import { MdDelete } from 'react-icons/md';
+
 
 type FinanceItem = {
   id: number;

@@ -1,11 +1,9 @@
 
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
 import { ToastContainer } from "react-toastify";
 import GlobalProvider from "@/providers/GlobalProvider";
-import { fetchAuthSession } from "aws-amplify/auth";
-import { Amplify } from "aws-amplify";
+
 
 
 
