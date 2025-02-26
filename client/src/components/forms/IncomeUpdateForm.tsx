@@ -29,6 +29,7 @@ const IncomeUpdateForm = ({data}:{data:FinanceItem}) => {
                   toast.success("Income updated successfully!");
                   router.push("/incomes")
                 } catch (error) {
+                  console.log(error)
                   toast.error("Failed to update income");
                 }
       };
@@ -40,6 +41,7 @@ const IncomeUpdateForm = ({data}:{data:FinanceItem}) => {
             router.push("/incomes")
           }
           catch(error){
+              console.log(error)
               toast.error("Failed to delete income");
           }
         } 

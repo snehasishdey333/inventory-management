@@ -4,13 +4,13 @@ import React from 'react';
 import { XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, BarChart, Bar } from 'recharts';
 
 // Define TypeScript types for the income data and chart data
-interface IncomeData {
-  id: number;
-  date: string;
-  title: string;
-  amount: number;
-  description: string;
-}
+// interface IncomeData {
+//   id: number;
+//   date: string;
+//   title: string;
+//   amount: number;
+//   description: string;
+// }
 
 interface ChartData {
   month: string;

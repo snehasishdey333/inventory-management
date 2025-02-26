@@ -71,6 +71,7 @@ const AddProductPage = () => {
             }
         }
         catch(error){
+            console.log(error)
             toast.error("Failed to upload image!");
         }
         

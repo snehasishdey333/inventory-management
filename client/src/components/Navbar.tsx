@@ -3,11 +3,10 @@
 
 import { createStaffInNotExist, fetchStaff } from "@/utils/api";
 import { useAuthenticator } from "@aws-amplify/ui-react";
-import { Amplify } from "aws-amplify";
-import { fetchAuthSession, getCurrentUser } from "aws-amplify/auth";
+import { getCurrentUser } from "aws-amplify/auth";
 import Link from "next/link";
 import { useEffect } from "react";
-import { FaBoxOpen, FaSearch, FaUser } from "react-icons/fa";
+import { FaBoxOpen, FaUser } from "react-icons/fa";
 
 const Navbar = () => {
  const { user } = useAuthenticator((context) => [context.user]);
@@ -16,7 +15,7 @@ const Navbar = () => {
     const fetchAuthUserInfo=async()=>{
         try{
             
-            const session = await fetchAuthSession()
+            // const session = await fetchAuthSession()
             // const {idToken}=session.tokens ?? {}
             const user=await getCurrentUser()
             // console.log(user)

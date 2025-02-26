@@ -30,6 +30,7 @@ const CategoryUpdateForm = ({data}:{data:{id:string,name:string}}) => {
           toast.success("Category updated successfully!");
           router.push("/categories")
         } catch (error) {
+          console.log(error)
           toast.error("Failed to update category");
         }
       };  
@@ -41,6 +42,7 @@ const CategoryUpdateForm = ({data}:{data:{id:string,name:string}}) => {
           router.push("/categories")
         }
         catch(error){
+            console.log(error)
             toast.error("Failed to delete category");
         }
       }

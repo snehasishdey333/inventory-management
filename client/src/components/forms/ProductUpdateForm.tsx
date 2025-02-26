@@ -90,6 +90,7 @@ const ProductUpdateForm = ({data}:{data:{id:string,name:string,description:strin
                 }
             }
             catch(error){
+                console.log(error)
                 toast.error("Failed to upload image!");
             }
         }
@@ -112,6 +113,7 @@ const ProductUpdateForm = ({data}:{data:{id:string,name:string,description:strin
                  router.push("/products")
              }
              catch(error){
+                 console.log(error)
                  toast.error("Failed to update product!");
              }
         }        
@@ -126,6 +128,7 @@ const ProductUpdateForm = ({data}:{data:{id:string,name:string,description:strin
               router.push("/products")
             }
             catch(error){
+                console.log(error)
                 toast.error("Failed to delete product");
             }
           }

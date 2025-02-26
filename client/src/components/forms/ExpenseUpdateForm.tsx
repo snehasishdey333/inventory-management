@@ -29,6 +29,7 @@ const ExpenseUpdateForm = ({data}:{data:FinanceItem}) => {
                   toast.success("Expense updated successfully!");
                   router.push("/expenses")
                 } catch (error) {
+                  console.log(error)
                   toast.error("Failed to update expense");
                 }
       };
@@ -40,6 +41,7 @@ const ExpenseUpdateForm = ({data}:{data:FinanceItem}) => {
             router.push("/expenses")
           }
           catch(error){
+              console.log(error)
               toast.error("Failed to delete expense");
           }
         }     

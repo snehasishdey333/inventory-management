@@ -438,6 +438,7 @@ export function aggregateIncomeAndExpenseDataAndConvertToGraph(incomeData: Finan
   // Convert the aggregated data into the desired format
   const result: MonthData[] = Object.keys(aggregatedData).map((yearMonth) => {
     const [year, month] = yearMonth.split("-");
+    console.log(year,month)
     return {
       name: getMonthName(Number(month) - 1),  // Get the month name from the number
       income: aggregatedData[yearMonth].income,
