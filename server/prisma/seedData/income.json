@@ -1,0 +1,206 @@
+[
+    {
+      "id": "c2e5fca4-384b-4505-b7e1-bcc9e2a228f1",
+      "date": "2025-01-05",
+      "title": "Sales Revenue",
+      "amount": 25000,
+      "description": "Revenue from product sales"
+    },
+    {
+      "id": "f8b3c3b6-9f4d-475f-9d9c-075b39646499",
+      "date": "2025-01-10",
+      "title": "Consulting Fees",
+      "amount": 15000,
+      "description": "Income from consultancy"
+    },
+    {
+      "id": "451cb6f8-ff84-4fa6-beb4-2c6981b62e89",
+      "date": "2025-01-15",
+      "title": "Investment Income",
+      "amount": 12000,
+      "description": "Return on investments"
+    },
+    {
+      "id": "92850a02-b8f1-4979-bcb0-c8f7d2f292eb",
+      "date": "2025-01-20",
+      "title": "Rental Income",
+      "amount": 8000,
+      "description": "Monthly rental income from properties"
+    },
+    {
+      "id": "7fa7b6a9-e5ed-4cd9-a57f-3b5c0e3e287a",
+      "date": "2025-01-25",
+      "title": "E-commerce Sales",
+      "amount": 18000,
+      "description": "Online store revenue"
+    },
+    {
+      "id": "8ab35b19-5d5c-4423-b0c9-9be69954b586",
+      "date": "2025-02-01",
+      "title": "Freelance Work",
+      "amount": 12000,
+      "description": "Freelance project income"
+    },
+    {
+      "id": "19fa82d2-e1d0-4b69-9077-344ac3e2f1b1",
+      "date": "2025-02-03",
+      "title": "Product Launch",
+      "amount": 25000,
+      "description": "Income from new product sales"
+    },
+    {
+      "id": "204da14e-12fa-4325-9b25-5c0cfda010d3",
+      "date": "2025-02-08",
+      "title": "Affiliate Marketing",
+      "amount": 10000,
+      "description": "Affiliate marketing commissions"
+    },
+    {
+      "id": "8cc607b5-4b10-4b47-bf1a-c2ec81acb864",
+      "date": "2025-02-15",
+      "title": "Dividend Income",
+      "amount": 5000,
+      "description": "Dividend payment from shares"
+    },
+    {
+      "id": "da01e19b-c7bb-48ac-9430-27c1f7ff0713",
+      "date": "2025-02-20",
+      "title": "Licensing Fees",
+      "amount": 20000,
+      "description": "Licensing income from intellectual property"
+    },
+    {
+      "id": "b7edc6ac-2a3f-4760-92f2-bb08cb87b244",
+      "date": "2025-03-01",
+      "title": "Subscriptions",
+      "amount": 12000,
+      "description": "Revenue from online subscriptions"
+    },
+    {
+      "id": "f4a517a7-5d2e-47b4-9440-b28e05c1cb90",
+      "date": "2025-03-05",
+      "title": "Franchise Fees",
+      "amount": 22000,
+      "description": "Franchise fee payments"
+    },
+    {
+      "id": "b074f4d9-57fe-41eb-b66e-cbe2b67410c3",
+      "date": "2025-03-10",
+      "title": "Sponsorship",
+      "amount": 15000,
+      "description": "Sponsorship income from events"
+    },
+    {
+      "id": "b1230725-8765-47b5-9a35-b25549784963",
+      "date": "2025-03-15",
+      "title": "Charity Donations",
+      "amount": 5000,
+      "description": "Donations received for charity events"
+    },
+    {
+      "id": "d10725e4-50b7-4d1c-b77a-5a8d1b055bc3",
+      "date": "2025-04-01",
+      "title": "Royalty Income",
+      "amount": 8000,
+      "description": "Royalties from published work"
+    },
+    {
+      "id": "455c77e1-e8f0-4e93-b441-8d88345f4a15",
+      "date": "2025-04-05",
+      "title": "Online Courses",
+      "amount": 10000,
+      "description": "Income from online course sales"
+    },
+    {
+      "id": "b243bc65-368b-46c1-9fe9-e3e58a9d64c1",
+      "date": "2025-04-10",
+      "title": "Event Income",
+      "amount": 15000,
+      "description": "Revenue from events and workshops"
+    },
+    {
+      "id": "3bbfdf62-f607-4605-a6c3-5b82a49512ae",
+      "date": "2025-04-15",
+      "title": "Product Sponsorship",
+      "amount": 12000,
+      "description": "Sponsorship from product brands"
+    },
+    {
+      "id": "2a576084-5605-4b87-8141-d4c9a918c11e",
+      "date": "2025-04-20",
+      "title": "Advertising Revenue",
+      "amount": 25000,
+      "description": "Advertising revenue from platform"
+    },
+    {
+        "id": "2db65f1d-d4e1-4b1f-9fc9-d27d2bb1ed99",
+        "date": "2025-05-01",
+        "title": "Consulting Revenue",
+        "amount": 25000,
+        "description": "Income from business consulting"
+      },
+      {
+        "id": "7fd2a76a-b52b-47ff-8d15-650d4e7781f6",
+        "date": "2025-05-05",
+        "title": "Subscription Fees",
+        "amount": 12000,
+        "description": "Revenue from new subscriptions"
+      },
+      {
+        "id": "4b19cb43-72a7-477b-9fa5-cf44f7c6d14a",
+        "date": "2025-05-10",
+        "title": "E-book Sales",
+        "amount": 8000,
+        "description": "Income from e-book sales"
+      },
+      {
+        "id": "c5c2285a-8b04-4f13-88e7-0f4ea5d8724d",
+        "date": "2025-06-01",
+        "title": "Sponsorship Income",
+        "amount": 18000,
+        "description": "Sponsorship for industry events"
+      },
+      {
+        "id": "0c72f6c9-23f5-4a24-a906-d1d2d7ed97a6",
+        "date": "2025-06-05",
+        "title": "Product Sales",
+        "amount": 30000,
+        "description": "Income from product line sales"
+      },
+      {
+        "id": "7b1959b8-bc8d-4553-bbf7-7de073991b95",
+        "date": "2025-06-10",
+        "title": "Commission Income",
+        "amount": 12000,
+        "description": "Commission for sales deals"
+      },
+      {
+        "id": "601b6f57-93eb-4184-a710-d8b27824f23f",
+        "date": "2025-07-01",
+        "title": "Franchise Income",
+        "amount": 20000,
+        "description": "Income from franchising business"
+      },
+      {
+        "id": "13a90c56-516d-487a-83c3-3a6c04e50c60",
+        "date": "2025-07-05",
+        "title": "Online Advertising",
+        "amount": 15000,
+        "description": "Revenue from online ads"
+      },
+      {
+        "id": "90f9054a-fae5-4a38-b731-0b628f28936f",
+        "date": "2025-08-01",
+        "title": "Grant Income",
+        "amount": 25000,
+        "description": "Income from research grants"
+      },
+      {
+        "id": "902b707f-b635-4538-8432-48a68be1bb93",
+        "date": "2025-08-10",
+        "title": "Event Registration",
+        "amount": 10000,
+        "description": "Income from event registrations"
+      }
+  ]
+  

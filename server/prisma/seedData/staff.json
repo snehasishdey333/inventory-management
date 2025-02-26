@@ -1,0 +1,383 @@
+[
+  {
+    "id":"0e980d1b-ae93-4a5a-b235-4dfea5f42860",
+    "username":"Johndoe",
+    "email":"johndoe@gmail.com",
+    "name":"John Doe",
+    "address":"Birpara, Alipurduar, 735204",
+    "sex":"Male",
+    "phone":"6765455454",
+    "cognitoId": "717b3540-a061-707b-742a-a28391181149"
+
+  },
+  {
+    "id":"2e980d1b-bg3454-4a5a-b235-4dfea5f42860",
+    "username":"Janedoe",
+    "email":"janedoe@gmail.com",
+    "name":"Jane Doe",
+    "address":"Jadavpur, Kolkata",
+    "sex":"Male",
+    "phone":"6765455454",
+    "cognitoId": "917b3540-a061-707b-742a-a28391181149"
+  },
+  {
+    "username":"Johnson",
+    "email":"johnson@gmail.com",
+    "name":"Johnson David",
+    "address":"Birpara, Alipurduar, 735204",
+    "sex":"Male",
+    "phone":"6765455454",
+    "cognitoId": "817b3540-a861-707b-742a-a28391181149"
+  },
+  {
+    "id":"3d980d1b-ae93-4a5a-b235-4dfea5f42861",
+    "username":"MichaelJ",
+    "email":"michaelj@gmail.com",
+    "name":"Michael Johnson",
+    "address":"Salt Lake, Kolkata",
+    "sex":"Male",
+    "phone":"6765455555",
+    "cognitoId": "817b3540-a062-707b-742a-a28391181149"
+  },
+  {
+    "id":"4e980d1b-cd93-4b5a-c235-4dfea5f42862",
+    "username":"Emily23",
+    "email":"emily23@gmail.com",
+    "name":"Emily Roberts",
+    "address":"Ballygunge, Kolkata",
+    "sex":"Male",
+    "phone":"6765455666",
+    "cognitoId": "817b3540-a061-707b-342a-a28391181149"
+  },
+  {
+    "id":"5f980d1b-bd93-5c5a-a235-5dfea5f42863",
+    "username":"Alex45",
+    "email":"alex45@gmail.com",
+    "name":"Alex Hunter",
+    "address":"Dumdum, Kolkata",
+    "sex":"Male",
+    "phone":"6765455777",
+    "cognitoId": "817b3540-a061-707b-a42a-a28391181149"
+  },
+  {
+    "id":"6a980d1b-ed93-4a5a-b235-6dfea5f42864",
+    "username":"SophiaT",
+    "email":"sophiat@gmail.com",
+    "name":"",
+    "address":"",
+    "sex":"Male",
+    "phone":"",
+    "cognitoId": "817b3540-a061-707b-b42a-a28391181149"
+  },
+  {
+    "id":"7b980d1b-ed93-6a5a-b235-7dfea5f42865",
+    "username":"David34",
+    "email":"david34@gmail.com",
+    "name":"David Martin",
+    "address":"",
+    "sex":"Male",
+    "phone":"6765455999",
+    "cognitoId": "817b3540-a061-707b-h42a-a28391181149"
+  },
+  {
+    "id":"8c980d1b-fe93-4b5a-b235-8dfea5f42866",
+    "username":"Liam12",
+    "email":"liam12@gmail.com",
+    "name":"Liam Smith",
+    "address":"New Town, Kolkata",
+    "sex":"Male",
+    "phone":"6765456000",
+    "cognitoId": "817b3540-a061-707b-m42a-a28391181149"
+  },
+  {
+    "id":"9d980d1b-fb93-5c5a-b235-9dfea5f42867",
+    "username":"OliviaM",
+    "email":"oliviam@gmail.com",
+    "name":"Olivia Moore",
+    "address":"Barasat, 700124",
+    "sex":"",
+    "phone":"6765456111",
+    "cognitoId": "817b3540-a061-707b-0042a-a28391181149"
+  },
+  {
+    "id":"10e980d1b-fd93-4d5a-b235-10dfea5f42868",
+    "username":"Ethan456",
+    "email":"ethan456@gmail.com",
+    "name":"Ethan Clark",
+    "address":"Sealdah, Kolkata",
+    "sex":"",
+    "phone":"6765456222",
+    "cognitoId": "817b3540-a061-707b-28391181149"
+  },
+  {
+    "id":"11f980d1b-ff93-4e5a-b235-11dfea5f42869",
+    "username":"IsabellaR",
+    "email":"isabellar@gmail.com",
+    "name":"Isabella Brown",
+    "address":"Tollygunge, Kolkata",
+    "sex":"Female",
+    "phone":"6765456333",
+    "cognitoId": "817b3540-a061-707b-74sdva-a28391181149"
+  },
+  {
+    "id":"12g980d1b-gg93-4f5a-b235-12dfea5f42870",
+    "username":"William23",
+    "email":"william23@gmail.com",
+    "name":"William Harris",
+    "address":"Salt Lake, Kolkata",
+    "sex":"Others",
+    "phone":"6765456444",
+    "cognitoId": "817b3540-a061-707b-742a-asd28391181149"
+  },
+  {
+    "id":"13h980d1b-hh93-4a5a-b235-13dfea5f42871",
+    "username":"AvaJ",
+    "email":"avaj@gmail.com",
+    "name":"",
+    "address":"Rajarhat, Kolkata",
+    "sex":"Male",
+    "phone":"6765456555",
+    "cognitoId": "817b3540-a061-707b-742a-agt28391181149"
+  },
+  {
+    "id":"28w980d1b-ww93-4p5a-b235-28dfea5f42886",
+    "username":"IsaacM",
+    "email":"isaacm@gmail.com",
+    "name":"Isaac Martinez",
+    "address":"Kochi, Kerala",
+    "sex":"",
+    "phone":"6765458000",
+    "cognitoId": "817b3540-a061-707b-742a-athy28391181149"
+  },
+  {
+    "id":"29x980d1b-xx93-4q5a-b235-29dfea5f42887",
+    "username":"CharlotteG",
+    "email":"charlotteg@gmail.com",
+    "name":"Charlotte Garcia",
+    "address":"",
+    "sex":"Others",
+    "phone":"6765458111",
+    "cognitoId": "817b3540-a061-707b-742a-aiki28391181149"
+  },
+  {
+    "id":"30y980d1b-yy93-4r5a-b235-30dfea5f42888",
+    "username":"DanielS",
+    "email":"daniels@gmail.com",
+    "name":"Daniel Scott",
+    "address":"Nagpur, Maharashtra",
+    "sex":"Others",
+    "phone":"6765458222",
+    "cognitoId": "817b3540-a061-707b-742a-a4228391181149"
+  },
+  {
+    "id":"31z980d1b-zz93-4s5a-b235-31dfea5f42889",
+    "username":"LilyF",
+    "email":"lilyf@gmail.com",
+    "name":"Lily Taylor",
+    "address":"Surat, Gujarat",
+    "sex":"Female",
+    "phone":"6765458333",
+    "cognitoId": "817b3540-a061-707b-742a-agdf28391181149"
+  },
+  {
+    "id":"32a980d1b-aa93-4t5a-b235-32dfea5f42890",
+    "username":"HenryB",
+    "email":"henryb@gmail.com",
+    "name":"Henry Robinson",
+    "address":"Chandigarh, 160017",
+    "sex":"Female",
+    "phone":"6765458444",
+    "cognitoId": "817b3540-a061-707b-742a-aasd28391181149"
+  },
+  {
+    "id":"33b980d1b-bb93-4u5a-b235-33dfea5f42891",
+    "username":"AmeliaW",
+    "email":"ameliaw@gmail.com",
+    "name":"Amelia Wilson",
+    "address":"Vadodara, Gujarat",
+    "sex":"Female",
+    "phone":"6765458555",
+    "cognitoId": "817b3540-a061-707b-742a-aweg28391181149"
+  },
+  {
+    "id":"34c980d1b-cc93-4v5a-b235-34dfea5f42892",
+    "username":"JamesK",
+    "email":"jamesk@gmail.com",
+    "name":"James Adams",
+    "address":"Pune, Maharashtra",
+    "sex":"Female",
+    "phone":"6765458666",
+    "cognitoId": "817b3540-a061-707b-742a-a897828391181149"
+  },
+  {
+    "id":"35d980d1b-dd93-4w5a-b235-35dfea5f42893",
+    "username":"GraceH",
+    "email":"graceh@gmail.com",
+    "name":"Grace Lee",
+    "address":"Jaipur, Rajasthan",
+    "sex":"Female",
+    "phone":"6765458777",
+    "cognitoId": "817b3540-a061-707b-742a-a7u7jt28391181149"
+  },
+  {
+    "id":"36e980d1b-ee93-4x5a-b235-36dfea5f42894",
+    "username":"MiloC",
+    "email":"miloc@gmail.com",
+    "name":"Milo Carter",
+    "address":"Thane, Maharashtra",
+    "sex":"Female",
+    "phone":"6765458888",
+    "cognitoId": "817b3540-a061-707b-742a-aqwvwr28391181149"
+  },
+  {
+    "id":"37f980d1b-ff93-4y5a-b235-37dfea5f42895",
+    "username":"IslaJ",
+    "email":"islaj@gmail.com",
+    "name":"Isla Mitchell",
+    "address":"Indore, Madhya Pradesh",
+    "sex":"Female",
+    "phone":"6765458999",
+    "cognitoId": "817b3540-a061-707b-742a-acccc28391181149"
+  },
+  {
+    "id":"14i980d1b-ii93-4b5a-b235-14dfea5f42872",
+    "username":"MasonP",
+    "email":"masonp@gmail.com",
+    "name":"Mason Davis",
+    "address":"Behala, Kolkata",
+    "sex":"Female",
+    "phone":"",
+    "cognitoId": "817b3540-a061-707b-742a-afbvsf28391181149"
+  },
+  {
+    "id":"15j980d1b-jj93-4c5a-b235-15dfea5f42873",
+    "username":"CharlotteK",
+    "email":"charlottek@gmail.com",
+    "name":"Charlotte Lee",
+    "address":"Kolkata, 700027",
+    "sex":"Female",
+    "phone":"6765456777",
+    "cognitoId": "817b3540-a061-707b-742a-aaebwentw428391181149"
+  },
+  {
+    "id":"16k980d1b-kk93-4d5a-b235-16dfea5f42874",
+    "username":"JamesQ",
+    "email":"jamesq@gmail.com",
+    "name":"James Wilson",
+    "address":"Dum Dum, Kolkata",
+    "sex":"Female",
+    "phone":"6765456888",
+    "cognitoId": "817b3540-a061-707b-742a-aqwrbq28391181149"
+  },
+  {
+    "id":"17l980d1b-ll93-4e5a-b235-17dfea5f42875",
+    "username":"AmeliaZ",
+    "email":"ameliaz@gmail.com",
+    "name":"Amelia Harris",
+    "address":"Bhowanipore, Kolkata",
+    "sex":"Female",
+    "phone":"6765456999",
+    "cognitoId": "817b3540-a061-707b-742a-aqwb28391181149"
+  },
+  {
+    "id":"18m980d1b-mm93-4f5a-b235-18dfea5f42876",
+    "username":"JacobL",
+    "email":"jacobl@gmail.com",
+    "name":"Jacob Walker",
+    "address":"Rajabazar, Kolkata",
+    "sex":"Female",
+    "phone":"6765457000",
+    "cognitoId": "817b3540-a061-707b-742a-a6746728391181149"
+  },
+  {
+    "id":"19n980d1b-nn93-4g5a-b235-19dfea5f42877",
+    "username":"SophiaW",
+    "email":"sophiaw@gmail.com",
+    "name":"Sophia King",
+    "address":"Shibpur, Howrah",
+    "sex":"Female",
+    "phone":"6765457111",
+    "cognitoId": "817b3540-a061-707b-742a-athert28391181149"
+  },
+  {
+    "id":"20o980d1b-oo93-4h5a-b235-20dfea5f42878",
+    "username":"LucasD",
+    "email":"lucasd@gmail.com",
+    "name":"Lucas Martin",
+    "address":"Park Street, Kolkata",
+    "sex":"Female",
+    "phone":"6765457222",
+    "cognitoId": "817b3540-a061-707b-742a-awerhwet28391181149"
+  },
+  {
+    "id":"21p980d1b-pp93-4i5a-b235-21dfea5f42879",
+    "username":"EllaP",
+    "email":"ellap@gmail.com",
+    "name":"Ella Thompson",
+    "address":"Jodhpur Park, Kolkata",
+    "sex":"Female",
+    "phone":"6765457333",
+    "cognitoId": "817b3540-a061-7qwrgwe07b-742a-a28391181149"
+  },
+  {
+    "id":"22q980d1b-qq93-4j5a-b235-22dfea5f42880",
+    "username":"BenjaminF",
+    "email":"benjaminf@gmail.com",
+    "name":"Benjamin Harris",
+    "address":"Shyambazar, Kolkata",
+    "sex":"Female",
+    "phone":"6765457444",
+    "cognitoId": "817b3540-aqgre061-707b-742a-a28391181149"
+  },
+  {
+    "id":"23r980d1b-rr93-4k5a-b235-23dfea5f42881",
+    "username":"MiaC",
+    "email":"miac@gmail.com",
+    "name":"Mia Johnson",
+    "address":"Chingrighata, Kolkata",
+    "sex":"Male",
+    "phone":"6765457555",
+    "cognitoId": "817b3ggeq540-a061-707b-742a-a28391181149"
+  },
+  {
+    "id":"24s980d1b-ss93-4l5a-b235-24dfea5f42882",
+    "username":"HenryT",
+    "email":"henryt@gmail.com",
+    "name":"Henry Davis",
+    "address":"Howrah, 711101",
+    "sex":"",
+    "phone":"6765457666",
+    "cognitoId": "817b3540-a06wergwe1-707b-742a-a28391181149"
+  },
+  {
+    "id":"25t980d1b-tt93-4m5a-b235-25dfea5f42883",
+    "username":"ZoeG",
+    "email":"zoeg@gmail.com",
+    "name":"Zoe Lee",
+    "address":"Dumdum, Kolkata",
+    "sex":"",
+    "phone":"6765457777",
+    "cognitoId": "817b3540-a06gwegrwe1-707b-742a-a28391181149"
+  },
+  {
+    "id":"26u980d1b-uu93-4n5a-b235-26dfea5f42884",
+    "username":"OliverM",
+    "email":"oliverm@gmail.com",
+    "name":"Oliver Clark",
+    "address":"Garia, Kolkata",
+    "sex":"",
+    "phone":"6765457888",
+    "cognitoId": "817b3540-a061gwegwe-707b-746a-a28391181149"
+  },
+  {
+    "id":"27v980d1b-vv93-4o5a-b235-27dfea5f42885",
+    "username":"AveryB",
+    "email":"averyb@gmail.com",
+    "name":"Avery Robinson",
+    "address":"Sealdah, Kolkata",
+    "sex":"",
+    "phone":"6765457999",
+    "cognitoId": "817b354sdv0-a061gwegew-707b-741a-a28391181149"
+  }
+]
+

@@ -1,0 +1,255 @@
+[
+    {
+      "id": "9a0e8a3e-c5fc-437d-b3b8-1dbb1f5e2b7f",
+      "date": "2025-01-05",
+      "title": "Construction",
+      "amount": 5000,
+      "description": "Fees"
+    },
+    {
+      "id": "74a02a6a-e53d-4b6d-b4d0-6a41ac9d8c3a",
+      "date": "2025-01-07",
+      "title": "Salary",
+      "amount": 50000,
+      "description": "Salary to teachers"
+    },
+    {
+      "id": "26b51255-62b2-4a74-bfa7-6724d2b4c1a7",
+      "date": "2025-01-10",
+      "title": "Maintenance",
+      "amount": 6000,
+      "description": "Maintenance for ground"
+    },
+    {
+      "id": "7b5f7e38-e35e-4c16-a907-bc6b8f10ea4b",
+      "date": "2025-01-12",
+      "title": "Electricity",
+      "amount": 6000,
+      "description": "Electric bill"
+    },
+    {
+      "id": "38be7841-e619-4d29-a01d-b8b6288f5d4e",
+      "date": "2025-01-14",
+      "title": "Water",
+      "amount": 2000,
+      "description": "Water bill"
+    },
+    {
+      "id": "a9edb6e4-7433-46f3-b745-b9a6c99f9b5a",
+      "date": "2025-01-16",
+      "title": "Fees",
+      "amount": 2000,
+      "description": "Fees"
+    },
+    {
+      "id": "64d9f512-428e-47f7-a5a5-5f99f43a72a2",
+      "date": "2025-01-18",
+      "title": "Other",
+      "amount": 5000,
+      "description": "Other expenses"
+    },
+    {
+        "id": "fbd6d42c-7b0b-4896-bd97-bb315b7cf6e1",
+        "date": "2025-02-01",
+        "title": "Insurance",
+        "amount": 4000,
+        "description": "Health insurance"
+      },
+      {
+        "id": "12edb5ad-9843-4a47-a04f-9324382bc8a4",
+        "date": "2025-02-02",
+        "title": "Rent",
+        "amount": 15000,
+        "description": "Office rent"
+      },
+      {
+        "id": "58cf35ed-097e-4b61-8a49-d8b98d7582e4",
+        "date": "2025-02-03",
+        "title": "Materials",
+        "amount": 8000,
+        "description": "Construction materials"
+      },
+      {
+        "id": "51f7de0c-7d02-46e0-a125-588fb211576a",
+        "date": "2025-02-05",
+        "title": "Software",
+        "amount": 12000,
+        "description": "Software subscription"
+      },
+      {
+        "id": "47df2a56-cac2-4f93-870f-d4c4f63461de",
+        "date": "2025-02-07",
+        "title": "Consultation",
+        "amount": 3000,
+        "description": "Consulting fees"
+      },
+      {
+        "id": "7f01f961-1ab4-42f3-8db7-2ac911a97c4e",
+        "date": "2025-02-08",
+        "title": "Supplies",
+        "amount": 3500,
+        "description": "Office supplies"
+      },
+      {
+        "id": "b0f51b34-20a0-43b5-b1f2-0e01b6d26b8f",
+        "date": "2025-02-10",
+        "title": "Transport",
+        "amount": 2000,
+        "description": "Transport expenses"
+      },
+      {
+        "id": "5c9f1bb5-6c67-47c5-9d6f-d620a7b1c6a3",
+        "date": "2025-02-11",
+        "title": "Marketing",
+        "amount": 15000,
+        "description": "Marketing campaigns"
+      },
+      {
+        "id": "0b1b7ea4-bc0f-4a79-88f6-78e5b270299f",
+        "date": "2025-02-13",
+        "title": "Training",
+        "amount": 5000,
+        "description": "Employee training"
+      },
+      {
+        "id": "83565f9a-cc78-4745-9b0e-d0f694d6da58",
+        "date": "2025-02-15",
+        "title": "Internet",
+        "amount": 2500,
+        "description": "Internet bill"
+      },
+      {
+        "id": "1e2a07d8-1697-44d1-a87d-cf18c5a7cce6",
+        "date": "2025-02-17",
+        "title": "Equipment",
+        "amount": 10000,
+        "description": "Equipment purchase"
+      },
+      {
+        "id": "ae8b1858-e1a5-4641-b49c-87d364537397",
+        "date": "2025-02-18",
+        "title": "Cleaning",
+        "amount": 1500,
+        "description": "Cleaning service"
+      },
+      {
+        "id": "31b93d69-52a3-4420-9b8e-1a0a04fd416b",
+        "date": "2025-05-19",
+        "title": "Telecom",
+        "amount": 3500,
+        "description": "Telecom bill"
+      },
+      {
+        "id": "f422f229-2739-4e0e-a9a5-42a460c61ea1",
+        "date": "2025-02-20",
+        "title": "Subscriptions",
+        "amount": 5000,
+        "description": "Monthly subscriptions"
+      },
+      {
+        "id": "a0c9a416-cc1d-4d6e-b83a-b3d35d2b7bfa",
+        "date": "2025-02-22",
+        "title": "Legal",
+        "amount": 7000,
+        "description": "Legal fees"
+      },
+      {
+        "id": "6c92a1f0-3c19-4e1f-82f2-63b629063c98",
+        "date": "2025-02-23",
+        "title": "Security",
+        "amount": 4000,
+        "description": "Security services"
+      },
+      {
+        "id": "272b8357-62fa-44fc-b350-8500b8cc3d0a",
+        "date": "2025-02-25",
+        "title": "Staff",
+        "amount": 12000,
+        "description": "Staff salaries"
+      },
+      {
+        "id": "95db6b49-ff6a-4d91-88d4-5cc1b86db7d3",
+        "date": "2025-02-27",
+        "title": "Bank Fees",
+        "amount": 1000,
+        "description": "Bank charges"
+      },
+      {
+        "id": "7f7d3657-8fe4-497a-85c5-4209c5b04c0f",
+        "date": "2025-04-28",
+        "title": "Depreciation",
+        "amount": 3000,
+        "description": "Depreciation expense"
+      },
+      {
+        "id": "d8354a0e-2c26-4a16-bb4b-2e2338f4229a",
+        "date": "2025-03-01",
+        "title": "Office Supplies",
+        "amount": 1500,
+        "description": "Office stationeries"
+      },
+      {
+        "id": "c1f28fe9-4283-4b3d-bdc1-4c73f063a3a2",
+        "date": "2025-03-03",
+        "title": "Advertising",
+        "amount": 12000,
+        "description": "Advertising fees"
+      },
+      {
+        "id": "f5242785-dc99-42a0-bf7f-cd926c9e99a6",
+        "date": "2025-03-05",
+        "title": "Repairs",
+        "amount": 3500,
+        "description": "Building repairs"
+      },
+      {
+        "id": "f8e9b60a-4764-4e5f-9fe1-91d4d538edc6",
+        "date": "2025-03-08",
+        "title": "Consulting",
+        "amount": 8000,
+        "description": "Management consulting"
+      },
+      {
+        "id": "9a653c7c-e0a9-4537-b91e-cd78cf7a4b3b",
+        "date": "2025-03-10",
+        "title": "Travel",
+        "amount": 2500,
+        "description": "Business travel expenses"
+      },
+      {
+        "id": "bbe91d47-c1d0-4cc6-bf86-e772d54fe04b",
+        "date": "2025-04-01",
+        "title": "Maintenance",
+        "amount": 5000,
+        "description": "Building maintenance"
+      },
+      {
+        "id": "c4b65f2e-99a4-469b-8da9-988b38f2ac90",
+        "date": "2025-04-05",
+        "title": "Staff Training",
+        "amount": 7000,
+        "description": "Employee skill development"
+      },
+      {
+        "id": "87e5782c-7e6f-4319-bb6d-0908c1b3e8c0",
+        "date": "2025-04-10",
+        "title": "Marketing Campaign",
+        "amount": 25000,
+        "description": "Digital marketing campaign"
+      },
+      {
+        "id": "3c9bece6-2a04-465a-930b-c2e4168b49da",
+        "date": "2025-05-01",
+        "title": "Research",
+        "amount": 10000,
+        "description": "Research and development"
+      },
+      {
+        "id": "e4335b80-b42f-4a44-b509-d9e8032a31b1",
+        "date": "2025-05-03",
+        "title": "Recruitment",
+        "amount": 12000,
+        "description": "Hiring new employees"
+      }
+  ]
+  
