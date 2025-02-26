@@ -11,6 +11,8 @@ const DashboardPage = async() => {
     financeData,
     salesData,
     sexData}=await fetchDashboardData()
+
+    
   return (
     <div className='flex-1 grid grid-cols-1 md:grid-cols-2 gap-4'>
       <PopularProductsCard data={popularProductsData}/>

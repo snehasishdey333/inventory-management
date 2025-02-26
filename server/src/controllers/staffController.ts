@@ -126,3 +126,45 @@ export const getStaffsController = async (
       res.status(500).json({ message: "Error updating staff" });
     }
   };
+
+  // export const getStaffSexCountController = async (
+  //   req: Request,
+  //   res: Response
+  // ): Promise<void> => {
+  //   try {
+  //     console.log("hi")
+  //     const staff = await prisma.staff.findMany();
+  //    console.log(staff)
+  //   // Initialize counters for each gender category
+  //   let maleCount = 0;
+  //   let femaleCount = 0;
+  //   let othersCount = 0;
+
+  //   // Iterate over the staff records and count the occurrences of sex
+  //   staff.forEach((staffMember) => {
+  //     if (staffMember.sex === "Male") {
+  //       maleCount++;
+  //     } else if (staffMember.sex === "Female") {
+  //       femaleCount++;
+  //     } else if (staffMember.sex === "Others") {
+  //       othersCount++;
+  //     }
+  //     else{
+  //       maleCount++;
+  //     }
+  //   });
+
+  //   // Prepare the response data in the required format
+  //   const sexCount = [
+  //     { name: "Male", value: maleCount },
+  //     { name: "Female", value: femaleCount },
+  //     { name: "Others", value: othersCount }
+  //   ];
+
+  //   // Send the response
+  //   res.status(200).json("hi");
+    
+  //   } catch (error) {
+  //     res.status(500).json({ message: "Error getting sex count",error });
+  //   }
+  // };

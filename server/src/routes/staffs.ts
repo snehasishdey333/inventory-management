@@ -7,6 +7,8 @@ router.get("/", getStaffsController);
 
 router.post("/", createStaffInNotExistController);
 
+// router.get("/chart", getStaffSexCountController);
+
 router.get("/:cognitoId",getStaffController);
 
 router.put("/:id", updateStaffController)

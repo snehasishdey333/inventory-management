@@ -4,21 +4,22 @@ import React from 'react';
 import { PieChart, Pie, Cell, Tooltip, Legend } from 'recharts';
 
 // Data for PieChart - Number of staff
-const genderData = [
-  { name: "Male", value: 35 },
-  { name: "Female", value: 32 },
-  { name: "Others", value: 8 }
-];
+// const genderData = [
+//   { name: "Male", value: 35 },
+//   { name: "Female", value: 32 },
+//   { name: "Others", value: 8 }
+// ];
 
-// type GenderType={
-//   name:string,
-//   value:number
-// }
+type GenderType={
+  name:string,
+  value:number
+}
 
 // Color palette for the pie chart
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28'];
-// {data}:{data:GenderType[]}
-const StaffChart = () => {
+const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF1493'];
+// 
+const StaffChart = ({data}:{data:GenderType[]}) => {
+  
   const [isClient, setIsClient] = useState(false);
 
   // Ensure that the component only renders on the client
@@ -38,7 +39,7 @@ const StaffChart = () => {
         {/* Pie chart container */}
         <PieChart width={250} height={250}>
           <Pie
-            data={genderData}
+            data={data}
             dataKey="value"
             nameKey="name"
             cx="50%"
@@ -46,7 +47,7 @@ const StaffChart = () => {
             outerRadius={60}  // Reduced to make the pie chart smaller
             label
           >
-            {genderData.map((entry, index) => (
+            {data.map((entry, index) => (
               <Cell key={`cell-${index}`} fill={COLORS[index]} />
             ))}
           </Pie>

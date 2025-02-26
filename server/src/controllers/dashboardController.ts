@@ -65,7 +65,7 @@ export const getDashboardDataController = async (
     });
     
     const formattedData = genderData.map(item => ({
-      name: item.sex,
+      name: item.sex=="" ? "Not specified" : item.sex,
       value: item._count,
     }));
     return formattedData
