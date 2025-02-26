@@ -496,16 +496,16 @@ export const createStaffInNotExist=async({data}:{data:{cognitoId:string,username
     }
 }
 
-export const staffChartData=async()=>{
-    try{
-        if (!apiUrl) {
-            throw new Error("API is not working");
-        }
-        const response = await axios.get(apiUrl+"/staffs/chart");
-        console.log(response.data)
-        return response.data
-    }
-    catch(error){
-        console.log('Error getting staff chart data, error')
-    }
-}
+// export const staffChartData=async()=>{
+//     try{
+//         if (!apiUrl) {
+//             throw new Error("API is not working");
+//         }
+//         const response = await axios.get(apiUrl+"/staffs/chart");
+//         console.log(response.data)
+//         return response.data
+//     }
+//     catch(error){
+//         console.log('Error getting staff chart data, error',error)
+//     }
+// }
