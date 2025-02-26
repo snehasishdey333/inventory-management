@@ -121,7 +121,7 @@ const ProductUpdateForm = ({data}:{data:{id:string,name:string,description:strin
 
     const handleDelete=async()=>{
             try{
-              const deletedCategory=await deleteProduct({data:{id:data.id}})
+              await deleteProduct({data:{id:data.id}})
               toast.success("Product deleted successfully!");
               router.push("/products")
             }

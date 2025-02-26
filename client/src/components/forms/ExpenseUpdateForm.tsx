@@ -25,7 +25,7 @@ const ExpenseUpdateForm = ({data}:{data:FinanceItem}) => {
       const onSubmit: SubmitHandler<ExpenseInputs> = async(expenseData) => {
         try {
                   const newData={...expenseData,id:data.id}
-                  const updatedExpense = await updateExpense({ data:newData });
+                  await updateExpense({ data:newData });
                   toast.success("Expense updated successfully!");
                   router.push("/expenses")
                 } catch (error) {
@@ -35,7 +35,7 @@ const ExpenseUpdateForm = ({data}:{data:FinanceItem}) => {
 
       const handleDelete=async()=>{
         try{
-            const deletedExpense=await deleteExpense({data:{id:data.id}})
+            await deleteExpense({data:{id:data.id}})
             toast.success("Expense deleted successfully!");
             router.push("/expenses")
           }

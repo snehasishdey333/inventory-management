@@ -32,6 +32,7 @@ const StaffUpdateForm = ({data}:{data:{ id: string; name: string; username: stri
                     toast.success("Staff updated successfully!");
                     router.push("/staffs")
                   } catch (error) {
+                    console.log(error)
                     toast.error("Failed to update staff");
                   }
   };

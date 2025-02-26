@@ -1,7 +1,7 @@
 
 "use client"
 
-import { createStaffInNotExist, fetchAuthUserInfo, fetchStaff } from "@/utils/api";
+import { createStaffInNotExist, fetchStaff } from "@/utils/api";
 import { useAuthenticator } from "@aws-amplify/ui-react";
 import { Amplify } from "aws-amplify";
 import { fetchAuthSession, getCurrentUser } from "aws-amplify/auth";

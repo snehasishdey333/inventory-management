@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect } from 'react';
 import { Amplify } from 'aws-amplify';
-import { Authenticator, Heading, Input, Radio, RadioGroupField, Text, useAuthenticator, View } from '@aws-amplify/ui-react';
+import { Authenticator, Heading, useAuthenticator, View } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 import { usePathname, useRouter } from 'next/navigation';
 import Link from 'next/link';
@@ -93,7 +93,7 @@ const components = {
       );
     },
     Footer() {
-      const { toSignUp } = useAuthenticator();
+      // const { toSignUp } = useAuthenticator();
       return (
         <View className="text-center mt-4">
           <p className="text-muted-foreground">
@@ -191,7 +191,7 @@ const components = {
     // },
 
     Footer() {
-      const { toSignIn } = useAuthenticator();
+      // const { toSignIn } = useAuthenticator();
       return (
         <View className="text-center mt-4">
           <p className="text-muted-foreground">

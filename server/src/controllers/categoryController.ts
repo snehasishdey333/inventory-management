@@ -107,7 +107,7 @@ export const getCategoriesController = async (
         data: { name: name.trim() }, 
       });
   
-      console.log(updatedCategory)
+      // console.log(updatedCategory)
       res.status(200).json(updatedCategory);
     } catch (error) {
       res.status(403).json({ message: 'Failed to update category' });

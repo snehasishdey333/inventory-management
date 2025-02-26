@@ -26,7 +26,7 @@ const CategoryUpdateForm = ({data}:{data:{id:string,name:string}}) => {
       const onSubmit: SubmitHandler<CategoryInputs> = async(catData) => {
         try {
           const newData={...catData,id:data.id}
-          const updatedCategory = await updateCategory({ data:newData });
+          await updateCategory({ data:newData });
           toast.success("Category updated successfully!");
           router.push("/categories")
         } catch (error) {
@@ -36,7 +36,7 @@ const CategoryUpdateForm = ({data}:{data:{id:string,name:string}}) => {
 
       const handleDelete=async()=>{
         try{
-          const deletedCategory=await deleteCategory({data:{id:data.id}})
+          await deleteCategory({data:{id:data.id}})
           toast.success("Category deleted successfully!");
           router.push("/categories")
         }

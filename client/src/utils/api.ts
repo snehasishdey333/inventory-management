@@ -1,6 +1,6 @@
 
 
-import { fetchAuthSession, getCurrentUser } from "aws-amplify/auth";
+// import { fetchAuthSession } from "aws-amplify/auth";
 import axios from "axios"
 
 
@@ -452,28 +452,28 @@ export const addImageToS3=async(formData:FormData)=>{
     }
 }
 
-export const fetchAuthUserInfo=async()=>{
-    try{
-        if (!apiUrl) {
-            throw new Error("API is not working");
-        }
-        let session = await fetchAuthSession()
+// export const fetchAuthUserInfo=async()=>{
+//     try{
+//         if (!apiUrl) {
+//             throw new Error("API is not working");
+//         }
+//         let session = await fetchAuthSession()
         
-        // console.log(session)
-        const {idToken}=session.tokens ?? {}
-        // const user=await getCurrentUser()
+//         // console.log(session)
+//         const {idToken}=session.tokens ?? {}
+//         // const user=await getCurrentUser()
         
-        return {
+//         return {
             
-            session,
-            idToken
-        }
-    }
-    catch(error){
-        console.error("Error fetching user info", error)
-        throw new Error("Failed to fetch user info")
-    }
-}
+//             session,
+//             idToken
+//         }
+//     }
+//     catch(error){
+//         console.error("Error fetching user info", error)
+//         throw new Error("Failed to fetch user info")
+//     }
+// }
 
 export const createStaffInNotExist=async({data}:{data:{cognitoId:string,username:string,email:string}})=>{
     try{
