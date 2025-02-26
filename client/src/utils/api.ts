@@ -1,7 +1,9 @@
 
 
 
-import apiClient from "./apiService";
+// import axios from "./apiService";
+
+import axios from "axios";
 
 
 
@@ -23,7 +25,7 @@ interface StaffData {
 // Fetch staff data
 export const fetchStaff = async ({ data }: { data: { cognitoId: string } }) => {
   try {
-    const response = await apiClient.post('/staffs', data); // Replace with your actual API endpoint
+    const response = await axios.post('/staffs', data); // Replace with your actual API endpoint
     return response.data;
   } catch (error) {
     console.error('Error fetching staff:', error);
@@ -34,7 +36,7 @@ export const fetchStaff = async ({ data }: { data: { cognitoId: string } }) => {
 // Create staff if they do not exist
 export const createStaffInNotExist = async ({ data }: { data: StaffData }) => {
   try {
-    const response = await apiClient.post('/staffs/create', data); // Replace with your actual API endpoint
+    const response = await axios.post('/staffs/create', data); // Replace with your actual API endpoint
     return response.data;
   } catch (error) {
     console.error('Error creating staff:', error);
@@ -52,7 +54,7 @@ export const fetchProducts=async(searchQuery: string = '',pageQuery:string = '1'
     }
     
     
-    const response = await apiClient.get(apiUrl+`/products?search=${searchQuery}&page=${pageQuery}`,
+    const response = await axios.get(apiUrl+`/products?search=${searchQuery}&page=${pageQuery}`,
     );
     return response.data
     } catch (error) {
@@ -66,7 +68,7 @@ export const fetchProduct=async({data}:{data:{id:string}})=>{
     if (!apiUrl) {
         throw new Error("API is not working");
     }
-    const response = await apiClient.get(apiUrl+`/products/${data.id}`);
+    const response = await axios.get(apiUrl+`/products/${data.id}`);
     return response.data
     } catch (error) {
     console.error("Error fetching product:", error)
@@ -87,7 +89,7 @@ export const addProduct=async({data}:{data:{name:string,
         throw new Error("API is not working");
     }
   
-    const response = await apiClient.post(apiUrl+"/products",{name:data.name,description:data.description,rating:data.rating,sales:data.sales,
+    const response = await axios.post(apiUrl+"/products",{name:data.name,description:data.description,rating:data.rating,sales:data.sales,
         price:data.price,
         units:data.units,
         category:data.category,
@@ -115,7 +117,7 @@ export const updateProductWithImage=async({data}:{data:{id:string,name:string,
         throw new Error("API is not working");
     }
     
-    const response = await apiClient.put(apiUrl+`/products/image/${data.id}`,{name:data.name,description:data.description,rating:data.rating,sales:data.sales,
+    const response = await axios.put(apiUrl+`/products/image/${data.id}`,{name:data.name,description:data.description,rating:data.rating,sales:data.sales,
         price:data.price,
         units:data.units,
         category:data.category,
@@ -141,7 +143,7 @@ export const updateProductWithoutImage=async({data}:{data:{id:string,name:string
         throw new Error("API is not working");
     }
     
-    const response = await apiClient.put(apiUrl+`/products/${data.id}`,{name:data.name,description:data.description,rating:data.rating,sales:data.sales,
+    const response = await axios.put(apiUrl+`/products/${data.id}`,{name:data.name,description:data.description,rating:data.rating,sales:data.sales,
         price:data.price,
         units:data.units,
         category:data.category,
@@ -159,7 +161,7 @@ export const deleteProduct=async({data}:{data:{id:string}})=>{
         if (!apiUrl) {
             throw new Error("API is not working");
         }
-        const response = await apiClient.delete(apiUrl+`/products/${data.id}`);
+        const response = await axios.delete(apiUrl+`/products/${data.id}`);
         return response.data
     }
     catch(error){
@@ -173,7 +175,7 @@ export const fetchIncomes=async(searchQuery: string = '',pageQuery:string = '1')
         if (!apiUrl) {
             throw new Error("API is not working");
         }
-        const response = await apiClient.get(apiUrl+`/incomes?search=${searchQuery}&page=${pageQuery}`);
+        const response = await axios.get(apiUrl+`/incomes?search=${searchQuery}&page=${pageQuery}`);
         return response.data
     }
     catch(error){
@@ -188,7 +190,7 @@ export const fetchIncome=async({data}:{data:{id:string}})=>{
             throw new Error("API is not working");
         }
         
-        const response = await apiClient.get(apiUrl+`/incomes/${data.id}`);
+        const response = await axios.get(apiUrl+`/incomes/${data.id}`);
         
         return response.data
     }
@@ -204,7 +206,7 @@ export const addIncome=async({data}:{data:{title:string,description:string,date:
             throw new Error("API is not working");
         }
         
-        const response = await apiClient.post(apiUrl+"/incomes",{title:data.title,description:data.description,amount:data.amount,date:data.date});
+        const response = await axios.post(apiUrl+"/incomes",{title:data.title,description:data.description,amount:data.amount,date:data.date});
         return response.data
     }
     catch(error){
@@ -218,7 +220,7 @@ export const updateIncome=async({data}:{data:{id:string,title:string,description
         if (!apiUrl) {
             throw new Error("API is not working");
         }
-        const response = await apiClient.put(apiUrl+`/incomes/${data.id}`,{title:data.title,description:data.description,amount:data.amount,date:data.date});
+        const response = await axios.put(apiUrl+`/incomes/${data.id}`,{title:data.title,description:data.description,amount:data.amount,date:data.date});
         return response.data
     }
     catch(error){
@@ -232,7 +234,7 @@ export const deleteIncome=async({data}:{data:{id:string}})=>{
         if (!apiUrl) {
             throw new Error("API is not working");
         }
-        const response = await apiClient.delete(apiUrl+`/incomes/${data.id}`);
+        const response = await axios.delete(apiUrl+`/incomes/${data.id}`);
         return response.data
     }
     catch(error){
@@ -246,7 +248,7 @@ export const fetchExpenses=async(searchQuery: string = '',pageQuery:string = '1'
         if (!apiUrl) {
             throw new Error("API is not working");
         }
-        const response = await apiClient.get(apiUrl+`/expenses?search=${searchQuery}&page=${pageQuery}`);
+        const response = await axios.get(apiUrl+`/expenses?search=${searchQuery}&page=${pageQuery}`);
         return response.data
     }
     catch(error){
@@ -261,7 +263,7 @@ export const fetchExpense=async({data}:{data:{id:string}})=>{
             throw new Error("API is not working");
         }
         
-        const response = await apiClient.get(apiUrl+`/expenses/${data.id}`);
+        const response = await axios.get(apiUrl+`/expenses/${data.id}`);
         
         return response.data
     }
@@ -277,7 +279,7 @@ export const addExpense=async({data}:{data:{title:string,description:string,date
             throw new Error("API is not working");
         }
         
-        const response = await apiClient.post(apiUrl+"/expenses",{title:data.title,description:data.description,amount:data.amount,date:data.date});
+        const response = await axios.post(apiUrl+"/expenses",{title:data.title,description:data.description,amount:data.amount,date:data.date});
         return response.data
     }
     catch(error){
@@ -291,7 +293,7 @@ export const updateExpense=async({data}:{data:{id:string,title:string,descriptio
         if (!apiUrl) {
             throw new Error("API is not working");
         }
-        const response = await apiClient.put(apiUrl+`/expenses/${data.id}`,{title:data.title,description:data.description,amount:data.amount,date:data.date});
+        const response = await axios.put(apiUrl+`/expenses/${data.id}`,{title:data.title,description:data.description,amount:data.amount,date:data.date});
         return response.data
     }
     catch(error){
@@ -305,7 +307,7 @@ export const deleteExpense=async({data}:{data:{id:string}})=>{
         if (!apiUrl) {
             throw new Error("API is not working");
         }
-        const response = await apiClient.delete(apiUrl+`/expenses/${data.id}`);
+        const response = await axios.delete(apiUrl+`/expenses/${data.id}`);
         return response.data
     }
     catch(error){
@@ -319,7 +321,7 @@ export const fetchStaffs=async(searchQuery: string = '',pageQuery:string = '1')=
         if (!apiUrl) {
             throw new Error("API is not working");
         }
-        const response = await apiClient.get(apiUrl+`/staffs?search=${searchQuery}&page=${pageQuery}`);
+        const response = await axios.get(apiUrl+`/staffs?search=${searchQuery}&page=${pageQuery}`);
         return response.data
     }
     catch(error){
@@ -333,7 +335,7 @@ export const fetchStaffs=async(searchQuery: string = '',pageQuery:string = '1')=
 //         if (!apiUrl) {
 //             throw new Error("API is not working");
 //         }
-//         const response = await apiClient.get(apiUrl+`/staffs/${data.cognitoId}`);
+//         const response = await axios.get(apiUrl+`/staffs/${data.cognitoId}`);
 //         return response.data
 //     }
 //     catch(error){
@@ -347,7 +349,7 @@ export const updateStaff=async({data}:{data:{id:string,name:string,address:strin
         if (!apiUrl) {
             throw new Error("API is not working");
         }
-        const response = await apiClient.put(apiUrl+`/staffs/${data.id}`,{
+        const response = await axios.put(apiUrl+`/staffs/${data.id}`,{
             name:data.name,
             address:data.address,
             sex:data.sex,
@@ -367,7 +369,7 @@ export const fetchCategories=async(searchQuery: string = '',pageQuery:string = '
             throw new Error("API is not working");
         }
         // `/api/categories?search=${encodeURIComponent(searchQuery)}`
-        const response = await apiClient.get(apiUrl+`/categories?search=${searchQuery}&page=${pageQuery}`);
+        const response = await axios.get(apiUrl+`/categories?search=${searchQuery}&page=${pageQuery}`);
         return response.data
     }
     catch(error){
@@ -382,7 +384,7 @@ export const fetchCategoriesWithoutParamas=async()=>{
             throw new Error("API is not working");
         }
        
-        const response = await apiClient.get(apiUrl+'/categories/no-params');
+        const response = await axios.get(apiUrl+'/categories/no-params');
         return response.data
     }
     catch(error){
@@ -396,7 +398,7 @@ export const fetchCategory=async({data}:{data:{id:string}})=>{
         if (!apiUrl) {
             throw new Error("API is not working");
         }
-        const response = await apiClient.get(apiUrl+`/categories/${data.id}`);
+        const response = await axios.get(apiUrl+`/categories/${data.id}`);
         return response.data
     }
     catch(error){
@@ -410,7 +412,7 @@ export const fetchDashboardData=async()=>{
         if (!apiUrl) {
             throw new Error("API is not working");
         }
-        const response = await apiClient.get(apiUrl+"/dashboard");
+        const response = await axios.get(apiUrl+"/dashboard");
         return response.data
     }
     catch(error){
@@ -425,7 +427,7 @@ export const fetchInventory=async(searchQuery: string = '',pageQuery:string = '1
             throw new Error("API is not working");
         }
         
-        const response = await apiClient.get(apiUrl+`/inventory?search=${searchQuery}&page=${pageQuery}`);
+        const response = await axios.get(apiUrl+`/inventory?search=${searchQuery}&page=${pageQuery}`);
         return response.data
     }
     catch(error){
@@ -439,7 +441,7 @@ export const addCategory=async({data}:{data:{name:string}})=>{
         if (!apiUrl) {
             throw new Error("API is not working");
         }
-        const response = await apiClient.post(apiUrl+"/categories",{name:data.name});
+        const response = await axios.post(apiUrl+"/categories",{name:data.name});
         return response.data
     }
     catch(error){
@@ -453,7 +455,7 @@ export const updateCategory=async({data}:{data:{id:string,name:string}})=>{
         if (!apiUrl) {
             throw new Error("API is not working");
         }
-        const response = await apiClient.put(apiUrl+`/categories/${data.id}`,{name:data.name});
+        const response = await axios.put(apiUrl+`/categories/${data.id}`,{name:data.name});
         return response.data
     }
     catch(error){
@@ -467,7 +469,7 @@ export const deleteCategory=async({data}:{data:{id:string}})=>{
         if (!apiUrl) {
             throw new Error("API is not working");
         }
-        const response = await apiClient.delete(apiUrl+`/categories/${data.id}`);
+        const response = await axios.delete(apiUrl+`/categories/${data.id}`);
         return response.data
     }
     catch(error){
@@ -481,7 +483,7 @@ export const addImageToS3=async(formData:FormData)=>{
         if (!apiUrl) {
             throw new Error("API is not working");
         }
-        const response = await apiClient.post(apiUrl+"/upload-image",formData);
+        const response = await axios.post(apiUrl+"/upload-image",formData);
         console.log(response.data)
         return response.data
     }
@@ -519,7 +521,7 @@ export const addImageToS3=async(formData:FormData)=>{
 //         if (!apiUrl) {
 //             throw new Error("API is not working");
 //         }
-//         const response = await apiClient.post(apiUrl+"/staffs",{
+//         const response = await axios.post(apiUrl+"/staffs",{
 //             name:"",
 //             address:"",
 //             cognitoId:data.cognitoId,
@@ -540,7 +542,7 @@ export const addImageToS3=async(formData:FormData)=>{
 //         if (!apiUrl) {
 //             throw new Error("API is not working");
 //         }
-//         const response = await apiClient.get(apiUrl+"/staffs/chart");
+//         const response = await axios.get(apiUrl+"/staffs/chart");
 //         console.log(response.data)
 //         return response.data
 //     }

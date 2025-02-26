@@ -1,8 +1,9 @@
 'use client';
 import StaffUpdateForm from "@/components/forms/StaffUpdateForm";
 import { apiUrl } from "@/utils/api";
-import apiClient from "@/utils/apiService";
+// import apiClient from "@/utils/apiService";
 import { useAuthenticator } from "@aws-amplify/ui-react";
+import axios from "axios";
 import { useEffect, useState } from "react";
 
 const SettingsPage = () => {
@@ -21,7 +22,7 @@ const SettingsPage = () => {
   useEffect(() => {
     const fetchStaff = async ({ data }: { data: { cognitoId: string } }) => {
       try {
-        const response = await apiClient.get(apiUrl + `/staffs/${data.cognitoId}`);
+        const response = await axios.get(apiUrl + `/staffs/${data.cognitoId}`);
         setUserDetails(response.data);
         return response.data;
       } catch (error) {
