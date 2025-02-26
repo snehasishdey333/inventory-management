@@ -11,14 +11,14 @@ const genderData = [
 ];
 
 type GenderType={
-  nmae:string,
+  name:string,
   value:number
 }
 
 // Color palette for the pie chart
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28'];
-
-const StaffChart = ({data}:{data:GenderType[]}) => {
+// {data}:{data:GenderType[]}
+const StaffChart = () => {
   const [isClient, setIsClient] = useState(false);
 
   // Ensure that the component only renders on the client

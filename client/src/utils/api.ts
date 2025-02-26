@@ -492,6 +492,6 @@ export const createStaffInNotExist=async({data}:{data:{cognitoId:string,username
         return response.data
     }
     catch(error){
-       console.log("error creating staff")
+       console.log("error creating staff",error)
     }
 }
