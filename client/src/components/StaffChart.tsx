@@ -10,10 +10,10 @@ const genderData = [
   { name: "Others", value: 8 }
 ];
 
-type GenderType={
-  name:string,
-  value:number
-}
+// type GenderType={
+//   name:string,
+//   value:number
+// }
 
 // Color palette for the pie chart
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28'];
