@@ -86,6 +86,7 @@ const ProductUpdateForm = ({data}:{data:{id:string,name:string,description:strin
                     router.push("/products")
                 }
                 catch(error){
+                    console.log(error)
                     toast.error("Failed to update product!");
                 }
             }

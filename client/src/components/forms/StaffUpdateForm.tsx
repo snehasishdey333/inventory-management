@@ -28,7 +28,7 @@ const StaffUpdateForm = ({data}:{data:{ id: string; name: string; username: stri
   const onSubmit: SubmitHandler<StaffInputs> = async(updatedData) => {
           try {
                     const newData={id:data.id,name:updatedData.name!,phone:updatedData.phone!,address:updatedData.address!,sex:updatedData.sex!}
-                    const updatedStaff = await updateStaff({ data:newData });
+                    await updateStaff({ data:newData });
                     toast.success("Staff updated successfully!");
                     router.push("/staffs")
                   } catch (error) {
