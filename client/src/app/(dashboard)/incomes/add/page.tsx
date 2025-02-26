@@ -15,10 +15,11 @@ const AddIncomePage = () => {
     
       const onSubmit: SubmitHandler<IncomeInputs> = async(data) => {
         try {
-          const createdExpense = await addIncome({ data });
+          await addIncome({ data });
           toast.success("Income added successfully!");
           router.push("/incomes")
         } catch (error) {
+          console.log(error)
           toast.error("Failed to add income");
         }     
       };     

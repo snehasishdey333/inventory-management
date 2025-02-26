@@ -1,7 +1,7 @@
 import Pagination from '@/components/Pagination';
 import Table from '@/components/Table';
 import TableSearch from '@/components/TableSearch';
-import { productColumns, products } from '@/data/data';
+import { productColumns } from '@/data/data';
 import { fetchProducts } from '@/utils/api';
 import Image from 'next/image';
 import Link from 'next/link';

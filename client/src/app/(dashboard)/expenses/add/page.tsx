@@ -19,6 +19,7 @@ const AddExpensePage = () => {
             toast.success("Expense added successfully!");
             router.push("/expenses")
           } catch (error) {
+            console.log(error)
             toast.error("Failed to add expense");
           }     
         };

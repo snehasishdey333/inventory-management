@@ -26,6 +26,7 @@ const AddCategoriesPage = () => {
         toast.success("Category added successfully!");
         router.push("/categories")
       } catch (error) {
+        console.log(error)
         toast.error("Failed to add category");
       }
     };

@@ -1,4 +1,4 @@
-import { products } from '@/data/data'
+
 import Image from 'next/image'
 import React from 'react'
 

@@ -1,7 +1,7 @@
 "use client";
 
 
-import { aggregateIncomeAndExpenseDataAndConvertToGraph, expenseData, incomeData } from "@/data/data";
+// import { aggregateIncomeAndExpenseDataAndConvertToGraph, expenseData, incomeData } from "@/data/data";
 import {
   LineChart,
   Line,

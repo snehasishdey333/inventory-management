@@ -66,6 +66,7 @@ const AddProductPage = () => {
                 router.push("/products")
             }
             catch(error){
+                console.log(error)
                 toast.error("Failed to add product!");
             }
         }

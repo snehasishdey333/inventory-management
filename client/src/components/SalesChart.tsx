@@ -1,7 +1,7 @@
 "use client"
-import { incomeData } from '@/data/data';
+
 import React from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, BarChart, Bar } from 'recharts';
+import { XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, BarChart, Bar } from 'recharts';
 
 // Define TypeScript types for the income data and chart data
 interface IncomeData {
@@ -55,24 +55,24 @@ interface ChartData {
 
 
 // Function to prepare the chart data by grouping income data by month
-const prepareData = (data: IncomeData[]): ChartData[] => {
-    const monthlyIncome = data.reduce((acc: { [key: string]: number }, item: IncomeData) => {
-      const month = item.date.substring(0, 7); // Extract 'YYYY-MM' format
-      if (!acc[month]) {
-        acc[month] = 0;
-      }
-      acc[month] += item.amount; // Sum the amounts
-      return acc;
-    }, {});
+// const prepareData = (data: IncomeData[]): ChartData[] => {
+//     const monthlyIncome = data.reduce((acc: { [key: string]: number }, item: IncomeData) => {
+//       const month = item.date.substring(0, 7); // Extract 'YYYY-MM' format
+//       if (!acc[month]) {
+//         acc[month] = 0;
+//       }
+//       acc[month] += item.amount; // Sum the amounts
+//       return acc;
+//     }, {});
   
-    // Convert the object into an array and sort by month (from past to most recent)
-    return Object.keys(monthlyIncome)
-      .sort() // This will sort by 'YYYY-MM' format in ascending order
-      .map((month) => ({
-        month,
-        income: monthlyIncome[month],
-      }));
-  };
+//     // Convert the object into an array and sort by month (from past to most recent)
+//     return Object.keys(monthlyIncome)
+//       .sort() // This will sort by 'YYYY-MM' format in ascending order
+//       .map((month) => ({
+//         month,
+//         income: monthlyIncome[month],
+//       }));
+//   };
   
   const SalesChart = ({data}:{data:ChartData[]}) => {
     // Prepare chart data

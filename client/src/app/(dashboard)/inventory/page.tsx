@@ -4,7 +4,7 @@ import TableSearch from '@/components/TableSearch'
 import { InventoryColumns } from '@/data/data'
 import { fetchInventory } from '@/utils/api'
 import React from 'react'
-import { FaPlus } from 'react-icons/fa'
+
 
 type InventoryItem={
    categoryName:string,
