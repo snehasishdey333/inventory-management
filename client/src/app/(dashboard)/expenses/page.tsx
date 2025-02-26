@@ -1,7 +1,7 @@
 import Pagination from '@/components/Pagination';
 import Table from '@/components/Table';
 import TableSearch from '@/components/TableSearch';
-import { expenseColumns, expenseData } from '@/data/data';
+import { expenseColumns } from '@/data/data';
 import { fetchExpenses } from '@/utils/api';
 import Link from 'next/link';
 import React from 'react'

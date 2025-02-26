@@ -1,6 +1,5 @@
 "use client"
 import { useState, useEffect } from 'react';
-import { staffs } from '@/data/data';
 import React from 'react';
 import { PieChart, Pie, Cell, Tooltip, Legend } from 'recharts';
 

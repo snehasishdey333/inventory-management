@@ -15,7 +15,7 @@ const AddExpensePage = () => {
       
         const onSubmit: SubmitHandler<ExpenseInputs> = async(data) => {
           try {
-            const createdExpense = await addExpense({ data });
+            await addExpense({ data });
             toast.success("Expense added successfully!");
             router.push("/expenses")
           } catch (error) {

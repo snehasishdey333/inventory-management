@@ -69,7 +69,7 @@ const ProductUpdateForm = ({data}:{data:{id:string,name:string,description:strin
                 imageUrl=await addImageToS3(formData)
                 
                 try{
-                   const response=await updateProductWithImage({
+                   await updateProductWithImage({
                         data: {
                             id:data.id,
                             name: prodData.name,
@@ -96,7 +96,7 @@ const ProductUpdateForm = ({data}:{data:{id:string,name:string,description:strin
         else{
             
             try{
-                const response=await updateProductWithoutImage({
+                await updateProductWithoutImage({
                      data: {
                         id:data.id,
                          name: prodData.name,

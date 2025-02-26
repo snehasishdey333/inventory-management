@@ -50,7 +50,7 @@ const AddProductPage = () => {
         try{
             const imageUrl=await addImageToS3(formData)
             try{
-               const response=await addProduct({
+               await addProduct({
                     data: {
                         name: data.name,
                         description: data.description,

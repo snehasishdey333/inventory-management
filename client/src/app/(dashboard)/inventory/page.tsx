@@ -1,7 +1,7 @@
 import Pagination from '@/components/Pagination'
 import Table from '@/components/Table'
 import TableSearch from '@/components/TableSearch'
-import { InventoryColumns, inventoryData, products } from '@/data/data'
+import { InventoryColumns } from '@/data/data'
 import { fetchInventory } from '@/utils/api'
 import React from 'react'
 import { FaPlus } from 'react-icons/fa'

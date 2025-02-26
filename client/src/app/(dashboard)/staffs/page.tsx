@@ -1,7 +1,7 @@
 import Pagination from '@/components/Pagination'
 import Table from '@/components/Table'
 import TableSearch from '@/components/TableSearch'
-import { staffs, staffsColumns } from '@/data/data'
+import { staffsColumns } from '@/data/data'
 import { fetchStaffs } from '@/utils/api'
 import React from 'react'
 

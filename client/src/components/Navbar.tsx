@@ -16,7 +16,7 @@ const Navbar = () => {
     const fetchAuthUserInfo=async()=>{
         try{
             
-            let session = await fetchAuthSession()
+            const session = await fetchAuthSession()
             // const {idToken}=session.tokens ?? {}
             const user=await getCurrentUser()
             // console.log(user)
@@ -33,7 +33,7 @@ const Navbar = () => {
 
             const isUserExist=await fetchStaff({data: {cognitoId: userData.cognitoId}})
             if(!isUserExist){
-              const userResponse=await createStaffInNotExist({data:userData})
+              await createStaffInNotExist({data:userData})
             }
             // const userResponse=await createStaffInNotExist({data:userData})
             // console.log(userResponse)

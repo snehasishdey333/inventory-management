@@ -2,7 +2,6 @@
 
 
 import { aggregateIncomeAndExpenseDataAndConvertToGraph, expenseData, incomeData } from "@/data/data";
-import Image from "next/image";
 import {
   LineChart,
   Line,
@@ -14,7 +13,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-const result = aggregateIncomeAndExpenseDataAndConvertToGraph(incomeData, expenseData);
+// const result = aggregateIncomeAndExpenseDataAndConvertToGraph(incomeData, expenseData);
 // console.log(result);
 
 type FinanceData={
