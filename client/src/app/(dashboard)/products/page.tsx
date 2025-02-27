@@ -47,6 +47,7 @@ const ProductsPage = async({ searchParams }: { searchParams: Promise<{ search?: 
   }
   
   const {products:data,totalPages}=await fetchProducts(search,page)
+  // console.log(data)
     return (
         <div className='bg-white p-4 rounded-md flex-1 m-4 mt-0'>
           <div className='flex items-center justify-between'>
