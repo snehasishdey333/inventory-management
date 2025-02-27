@@ -23,26 +23,26 @@ interface StaffData {
 }
 
 // Fetch staff data
-export const fetchStaff = async ({ data }: { data: { cognitoId: string } }) => {
-  try {
-    const response = await axios.post('/staffs', data); // Replace with your actual API endpoint
-    return response.data;
-  } catch (error) {
-    console.error('Error fetching staff:', error);
-    throw new Error('Failed to fetch staff');
-  }
-};
+// export const fetchStaff = async ({ data }: { data: { cognitoId: string } }) => {
+//   try {
+//     const response = await axios.post('/staffs', data); // Replace with your actual API endpoint
+//     return response.data;
+//   } catch (error) {
+//     console.error('Error fetching staff:', error);
+//     throw new Error('Failed to fetch staff');
+//   }
+// };
 
-// Create staff if they do not exist
-export const createStaffInNotExist = async ({ data }: { data: StaffData }) => {
-  try {
-    const response = await axios.post('/staffs/create', data); // Replace with your actual API endpoint
-    return response.data;
-  } catch (error) {
-    console.error('Error creating staff:', error);
-    throw new Error('Failed to create staff');
-  }
-};
+// // Create staff if they do not exist
+// export const createStaffInNotExist = async ({ data }: { data: StaffData }) => {
+//   try {
+//     const response = await axios.post('/staffs/create', data); // Replace with your actual API endpoint
+//     return response.data;
+//   } catch (error) {
+//     console.error('Error creating staff:', error);
+//     throw new Error('Failed to create staff');
+//   }
+// };
 
 
 
@@ -330,19 +330,19 @@ export const fetchStaffs=async(searchQuery: string = '',pageQuery:string = '1')=
     }
 }
 
-// export const fetchStaff=async({data}:{data:{cognitoId:string}})=>{
-//     try{
-//         if (!apiUrl) {
-//             throw new Error("API is not working");
-//         }
-//         const response = await axios.get(apiUrl+`/staffs/${data.cognitoId}`);
-//         return response.data
-//     }
-//     catch(error){
-//     console.error("Error fetching staff:", error)
-//     throw new Error("Failed to fetch staff")
-//     }
-// }
+export const fetchStaff=async({data}:{data:{cognitoId:string}})=>{
+    try{
+        if (!apiUrl) {
+            throw new Error("API is not working");
+        }
+        const response = await axios.get(apiUrl+`/staffs/${data.cognitoId}`);
+        return response.data
+    }
+    catch(error){
+    console.error("Error fetching staff:", error)
+    throw new Error("Failed to fetch staff")
+    }
+}
 
 export const updateStaff=async({data}:{data:{id:string,name:string,address:string,sex:string,phone:string}})=>{
     try{
@@ -516,26 +516,26 @@ export const addImageToS3=async(formData:FormData)=>{
 //     }
 // }
 
-// export const createStaffInNotExist=async({data}:{data:{cognitoId:string,username:string,email:string}})=>{
-//     try{
-//         if (!apiUrl) {
-//             throw new Error("API is not working");
-//         }
-//         const response = await axios.post(apiUrl+"/staffs",{
-//             name:"",
-//             address:"",
-//             cognitoId:data.cognitoId,
-//             phone:"",
-//             email:data.email,
-//             username:data.username
-//         })
-//         console.log(response.data)
-//         return response.data
-//     }
-//     catch(error){
-//        console.log("error creating staff",error)
-//     }
-// }
+export const createStaffInNotExist=async({data}:{data:{cognitoId:string,username:string,email:string}})=>{
+    try{
+        if (!apiUrl) {
+            throw new Error("API is not working");
+        }
+        const response = await axios.post(apiUrl+"/staffs",{
+            name:"",
+            address:"",
+            cognitoId:data.cognitoId,
+            phone:"",
+            email:data.email,
+            username:data.username
+        })
+        console.log(response.data)
+        return response.data
+    }
+    catch(error){
+       console.log("error creating staff",error)
+    }
+}
 
 // export const staffChartData=async()=>{
 //     try{
