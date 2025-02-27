@@ -49,6 +49,7 @@ const AddProductPage = () => {
         formData.append("file", imageFile)
         try{
             const imageUrl=await addImageToS3(formData)
+            
             try{
                await addProduct({
                     data: {

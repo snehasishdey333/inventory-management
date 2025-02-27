@@ -17,6 +17,9 @@ const nextConfig: NextConfig = {
 },
 {
   hostname:"inventory-management-16062000.s3.ap-south-1.amazonaws.com"
+},
+{
+  hostname:"*.amazonaws.com"
 }
 ]
   }

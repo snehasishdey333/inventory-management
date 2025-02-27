@@ -30,6 +30,7 @@ export const uploadFiletoS3=async(file:any)=>{
     try{
      const res=await s3.send(command)
      const imageUrl = `https://${process.env.AWS_S3_BUCKET}.s3.${process.env.AWS_REGION}.amazonaws.com/${fileKey}`;
+     
     return imageUrl;
     // return res
 
